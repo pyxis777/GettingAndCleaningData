@@ -21,10 +21,10 @@ The script will create the following results files in the top level directory of
 
 tidyTestAndTraining.txt - this dataset is the result of steps 1-4 above
 Each row of the new data set has a row_name of the format: 
-<row index>_<subject id>_<activity>
+row index_subject id_activity
 
 
 tidySubjectActivitySummary.txt - this dataset is the result of step 5 above
 Each row of the new data set has a row_name of the format: 
-<subject id>_<activity>
+subject id_activity
 

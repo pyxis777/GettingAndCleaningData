@@ -89,4 +89,5 @@ for(i in seq_along(subjectActivity)){
 colnames(ttTidy2) <- fstdMeanNames
 ttTidy2<- cbind(subjAct, ttTidy2)
 
-write.table(ttTidy2, file="tidySubjectActivitySummary.txt", row.name=FALSE) #Write text file out
+write.table(ttTidy, file="tidyTestAndTraining.txt", row.name=TRUE) #Write text file out - include row names
+write.table(ttTidy2, file="tidySubjectActivitySummary.txt", row.name=FALSE) #Write text file out; row names are in their own column subjAct
